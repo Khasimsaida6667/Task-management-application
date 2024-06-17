@@ -1,0 +1,134 @@
+/* TaskList.css */
+.task-list {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.new-task-input {
+  flex: 1 1 150px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.add-task-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-btn:hover {
+  background-color: #45a049;
+}
+
+.task-list-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+  background-color: #eabdbd;
+}
+
+.task-item.pending {
+  background-color: #f9f9f9;
+}
+
+.task-item.in-progress {
+  background-color: #ffe6cc;
+}
+
+.task-item.completed {
+  background-color: #e0f2f1;
+  text-decoration: line-through;
+}
+
+.task-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.task-name {
+  margin: 0;
+}
+
+.task-actions {
+  display: flex;
+}
+
+.task-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn {
+  background-color: #2196f3;
+  color: #fff;
+}
+.start-btn:hover {
+  background-color: #157dfb;
+}
+
+.in-progress-btn {
+  background-color: #ffeb3b;
+  color: #000;
+}
+
+.in-progress-btn:hover {
+  background-color: #ffe81f;
+}
+
+.complete-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+
+
+.complete-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: #fff;
+}
